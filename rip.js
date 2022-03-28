@@ -91,7 +91,7 @@ console.log(color(`================================================`, 'red'))
 }) 
 await root.connect({timeoutMs: 30*1000})
 fs.writeFileSync('./skiuwers.json', JSON.stringify(root.base64EncodedAuthInfo(), null, '\t'))
-root.sendMessage(`${setting.ownerNumber}@s.whatsapp.net`,`\n\n====================================\n\nBot Telah Aktif Dan Berhasil Terhubung. \n\n====================================\n\n${JSON.stringify(root.user, null, 2)}\n`, MessageType.text, {contextInfo: { forwardingScore: 999, isForwarded: true, externalAdReply:{title: "© All Creator BotWea || ItsMeArip",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./image/fake.jpg'),sourceUrl:"https://wa.me/6287776101997?text=Assalamu'alaikum, user bot verified."}}})
+root.sendMessage(`${setting.ownerNumber}@s.whatsapp.net`,`\n\n====================================\n\nBot Telah Aktif Dan Berhasil Terhubung. \n\n====================================\n\n${JSON.stringify(root.user, null, 2)}\n`, MessageType.text, {contextInfo: { forwardingScore: 999, isForwarded: true, externalAdReply:{title: "© All Creator BotWea || ItsMeArip",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./image/fake.jpg'),sourceUrl:"https://wa.me/6282311619167?text=Assalamu'alaikum, user bot verified."}}})
 root.on('chat-update', async (message) => {
 require('./root.js')(root, message)
 })
