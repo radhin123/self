@@ -28,7 +28,7 @@
 
 "botname":"「 L Botzz V2.0 ͘⁴̅⁰͍⁴̵〆 」",
 "ownername": "Damar",
-"packname01": "Follow Instagram",
+"packname01": "Follow",
 "packname02": "Arip404_",
 "img":"https://k.top4top.io/p_2001zgi471.jpg",
 "thumb":"thumbnail.jpg",
@@ -45,10 +45,10 @@
 "multi" : false, 
 "nopref" : false, 
 "antidel" : true, 
-"readGc" : false, 
+"readGc" : true, 
 "readPc" : false, 
-"autoketik" : false, 
-"autorekam" : true, 
+"autoketik" : true, 
+"autorekam" : false, 
 "welcome" : true, 
-"autobio" : false
+"autobio" : true
 }
