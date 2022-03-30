@@ -55,7 +55,6 @@
     "tiktok-scraper-without-watermark": "^1.0.6",
     "twitter-url-direct": "^1.0.1",
     "typed-function": "^2.0.0",
-    "yt-search": "^2.7.6"
   },
   "scripts": {
     "start": "node rip",
