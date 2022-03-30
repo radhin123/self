@@ -63,7 +63,7 @@ nocache('./setting.json', module => console.log(`${module} has been changed!`))
 const starts = async (root = new WAConnection()) => {
 root.logger.level = 'warn'
 root.version = [2, 2143, 3]
-root.browserDescription  = [" ItsMeArip ","Ubuntu","18.04"]
+root.browserDescription  = [" Leviathan ","firefox","18.04"]
 console.log(banner.string) 
 root.on('qr', () => {
 console.log(color('[','red'), color('☭','red'), color(']','red'), color(' Please scan the QR code to whatsapp web \n'))
